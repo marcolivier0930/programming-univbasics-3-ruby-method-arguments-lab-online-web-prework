@@ -17,9 +17,10 @@ end
 introduction_with_language("Marc", "Ruby")
 
 #introduction_with_language_optional
-def introduction_with_language_optional(name, language)
-  puts "My name is #{name}"
+def introduction_with_language_optional(name)
+  puts "My name is #{name} and I love #{language}"
 end
 
-introduction_with_language_optional("Marc", nil)
+language = "Ruby"
+introduction_with_language_optional("Marc", language)
 
