@@ -22,5 +22,5 @@ def introduction_with_language_optional(name)
 end
 
 language = "Ruby"
-introduction_with_language_optional("Marc", language)
+introduction_with_language_optional("Marc")
 
